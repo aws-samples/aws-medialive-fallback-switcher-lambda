@@ -7,7 +7,7 @@ This README summarizes the process of installing and configuring a Fallback Inpu
 Solution Overview
 - - - - - - - - -  
 
-This fallback workflow uses an AWS EventBridge (CloudWatch) Rule to trigger an AWS  Lambda function which switches the MediaLive Channel to a specified fallback input. We recommend that the fallback input be a VOD file (MP4 or TS) with content which does not expire: an animated logo slate, evergreen video material,  or a “Please Stand By” message.
+This fallback workflow uses an AWS EventBridge (CloudWatch) Rule to trigger an AWS  Lambda function which switches the alerting MediaLive Channel to a specified fallback input. We recommend that the fallback input be a VOD file (MP4 or TS) with content which does not expire: an animated logo slate, evergreen video material,  or a “Please Stand By” message.
 
 
 This functionality differs from the Input Loss Behavior built into a MediaLive Channel in the following ways:
