@@ -58,7 +58,7 @@ aws medialive create-input --type MP4_FILE --name fallback --sources "Url"="http
 If you do use this sample fallback input, you will need to attach it as an input to the MediaLive Channels for which you want to use it.
 See https://docs.aws.amazon.com/medialive/latest/ug/attach-inputs-procedure.html for complete information.
 
-
+Also: You could easily modify the command sent to the Channel, for exmaple, StopChannel rather than InputSwitch. 
 
 
 Configuring additional Channels after setup:
